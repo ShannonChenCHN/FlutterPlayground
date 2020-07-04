@@ -1,1 +1,135 @@
 # FlutterLabs
+
+### Outline
+
+- Overview
+  - **[Technical overview](https://flutter.dev/docs/resources/technical-overview)**
+  - **[Inside Flutter](https://flutter.dev/docs/resources/inside-flutter)**
+  - [Get Started](https://flutter.dev/docs/get-started/install)
+  - [FAQ](https://flutter.dev/docs/resources/faq)
+  - Flutter 和 React Native 的比较
+    - [Flutter for React Native developers](https://flutter.dev/docs/get-started/flutter-for/react-native-devs)
+  - Flutter 和 iOS native 开发技术以及 SwiftUI 的比较
+    - [Flutter for iOS developers](https://flutter.dev/docs/get-started/flutter-for/ios-devs)
+    - Flutter for Android developers
+  - [Platform specific behaviors and adaptations](https://flutter.dev/docs/resources/platform-adaptations)
+- [Dart](https://github.com/ShannonChenCHN/FlutterLabs/issues/2)
+  - [https://dart.dev/](https://dart.dev/)
+  - [Why did Flutter choose to use Dart?](https://flutter.dev/docs/resources/faq#why-did-flutter-choose-to-use-dart)
+  - [Language tour](https://dart.dev/guides/language/language-tour)
+  - [Library tour](https://dart.dev/guides/libraries/library-tour)
+  - [Effective Dart](https://dart.dev/guides/language/effective-dart)
+  - Asynchronous programming
+  - Coding Style Guide
+- User interface
+  - Widget
+    - [Widget catalog](https://flutter.dev/docs/development/ui/widgets)
+    - [Widget index](https://flutter.dev/docs/reference/widgets)
+    - [Basic widget library](https://api.flutter.dev/flutter/widgets/widgets-library.html)
+    - [Cupertino widgets library](https://api.flutter.dev/flutter/cupertino/cupertino-library.html)
+    - [Cupertino (iOS-style) widgets](https://flutter.dev/docs/development/ui/widgets/cupertino)
+  - Layout
+  - Adding interactivity
+  - Navigation & routing
+  - Assets and images
+  - Advanced UI
+    - Gestures
+  - Animations
+- Data & backend
+  - [**State management**](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
+  - Networking & http
+  - JSON and serialization
+- Platform integration
+  - C and C++ interop
+  - Writing custom platform-specific code
+    - Platform channel mechanism 
+    - [dart-native/dart_native](https://github.com/dart-native/dart_native)
+- Packages & plugins
+  - [Using packages](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
+  - Developing packages & plugins
+  - [https://pub.dev/](https://pub.dev/)
+- Add Flutter to existing app
+  - Add to Android applications
+  - Add to iOS applications
+  - Debugging & hot reload
+  - Load sequence, performance, and memory
+- Tools & techniques
+  - Android Studio / IntelliJ / Visual Studio Code  +  plugins
+  - [DevTools](https://flutter.dev/docs/development/tools/devtools/overview)
+  - Flutter SDK
+  - Hot reload
+  - Code formatting
+- Testing & debugging
+  - Debugging Flutter apps
+  - Debugging Flutter apps programmatically
+  - Using an OEM debugger
+  - Flutter's build modes
+  - Handling errors
+  - Testing
+- Performance & optimization
+  - App size
+  - Rendering performance
+- Deployment
+  - Obfuscating Dart code
+  - Creating flavors for Flutter
+  - Build and release an Android app
+  - Build and release an iOS app
+  - Build and release a web app
+  - Continuous deployment
+- 框架
+- 架构
+  - Redux
+- 热修复
+- 原理解析
+  - [图形渲染引擎](https://github.com/ShannonChenCHN/FlutterLabs/issues/1)
+- [API reference](https://api.flutter.dev/)
+
+### 相关资源
+- flutter 官方开源代码
+  - [flutter/flutter](https://github.com/flutter/flutter)
+  - [flutter/engine](https://github.com/flutter/engine)
+  - [flutter/gallery](https://github.com/flutter/gallery)
+  - [flutter/samples](https://github.com/flutter/samples)
+  - [flutter/plugins](https://github.com/flutter/plugins)
+- [Flutter 官方文档](https://flutter.dev/docs)/[Flutter中文网](https://flutterchina.club/)
+  - [API reference](https://api.flutter.dev/)
+  - [Cookbook](https://flutter.dev/docs/cookbook)
+  - [Widget catalog](https://flutter.dev/docs/development/ui/widgets)
+  - [Dart resources](https://flutter.dev/docs/resources/bootstrap-into-dart)
+  - [官方资源更新记录What's new archive](https://flutter.dev/docs/whats-new-archive)
+- [Books about Flutter](https://flutter.dev/docs/resources/books)
+- [Flutter 社区中文资源](https://flutter-io.cn/)
+- [Solido/awesome-flutter](https://github.com/Solido/awesome-flutter)
+- 闲鱼团队的博客：[Flutter · 语雀](https://www.yuque.com/xytech/flutter)
+- [Flutter – Medium](https://medium.com/flutter)
+- [Dart - Medium](https://medium.com/dartlang)
+- [Flutter Community](https://flutter.dev/community)
+
+### 社区讨论
+- [并不震惊，也可以不看的 前端 Flutter 劝退指南](https://juejin.im/post/5d728d376fb9a06b051811f4)
+- [开发跨平台app推荐React Native还是flutter？](https://www.yuque.com/xytech/flutter/blquhk)
+- [为什么说Flutter是革命性的？](http://www.infoq.com/cn/articles/why-is-flutter-revolutionary)
+- [为什么Flutter会选择 Dart ？](http://www.infoq.com/cn/articles/why-flutter-uses-dart)
+- [深入了解Flutter界面开发](https://mp.weixin.qq.com/s/z2r2OmnY7r7dQrkO8ndkFQ)
+- [为什么说Flutter让移动开发变得更好？](https://juejin.im/post/5add65c46fb9a07aa541e97e)
+- [Flutter 原理简解](https://mp.weixin.qq.com/s/CQQXD0TrlbaNWjoClIcDtw)
+- [发跨平台app推荐React Native还是flutter？](https://www.yuque.com/xytech/flutter/blquhk)
+- [Flutter - 不一样的跨平台解决方案](https://juejin.im/post/5afd77466fb9a07aab2a12da)
+- [国内大厂在移动端跨平台的框架接入分析](https://juejin.im/post/5ed45cf2e51d457858775d01)
+
+### Tutorials
+- [Get Started - Flutter](https://flutter.dev/docs/get-started/install)
+- [Tutorials - Flutter](https://flutter.dev/docs/reference/tutorials)
+- [Flutter CodeLab](https://codelabs.developers.google.com/?cat=Flutter)
+  - [Write your first Flutter app, part 1, 38 min](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt1/index.html?index=..%2F..index#1)
+  - [Write Your First Flutter App, part 2, 43 min](https://codelabs.developers.google.com/codelabs/first-flutter-app-pt2/index.html?index=..%2F..index#0)
+  - [Building a Cupertino app with Flutter, 51 min](https://codelabs.developers.google.com/codelabs/flutter-cupertino/index.html?index=..%2F..index#0)
+- [Getting Started with Flutter](https://www.raywenderlich.com/188257/getting-started-with-flutter)
+- [使用 Flutter 开发知识小集 iOS/Android 客户端](https://juejin.im/post/5afb77126fb9a07aa83ee586)
+- [Flutter Plugin开发流程](https://juejin.im/post/5af6e858f265da0b736dbac0)
+- [Flutter Navigation Tutorial](https://www.raywenderlich.com/189118/flutter-navigation)
+- [一个 Demo 入门 Flutter - Limboy](https://limboy.me/tech/2018/12/07/flutter-demo.html)
+
+### 实践经验
+- [美团外卖Flutter动态化实践](https://juejin.im/post/5ef58245f265da23073985d8)
+- [Flutter原理与实践 - 美团官方技术博客](https://juejin.im/post/5b6d59476fb9a04fe91aa778)

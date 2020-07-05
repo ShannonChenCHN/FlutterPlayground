@@ -48,6 +48,7 @@
   - [Using packages](https://flutter.dev/docs/development/packages-and-plugins/using-packages)
   - Developing packages & plugins
   - [https://pub.dev/](https://pub.dev/)
+  - [The pubspec file](https://dart.dev/tools/pub/pubspec)
 - Add Flutter to existing app
   - Add to Android applications
   - Add to iOS applications

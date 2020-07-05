@@ -7,9 +7,9 @@
   - **[Inside Flutter](https://flutter.dev/docs/resources/inside-flutter)**
   - [Get Started](https://flutter.dev/docs/get-started/install)
   - [FAQ](https://flutter.dev/docs/resources/faq)
-  - Flutter 和 React Native 的比较
+  - Flutter VS. React Native
     - [Flutter for React Native developers](https://flutter.dev/docs/get-started/flutter-for/react-native-devs)
-  - Flutter 和 iOS native 开发技术以及 SwiftUI 的比较
+  - Flutter VS. iOS/SwiftUI
     - [Flutter for iOS developers](https://flutter.dev/docs/get-started/flutter-for/ios-devs)
     - Flutter for Android developers
   - [Platform specific behaviors and adaptations](https://flutter.dev/docs/resources/platform-adaptations)
@@ -36,7 +36,6 @@
     - Gestures
   - Animations
 - Data & backend
-  - [**State management**](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
   - Networking & http
   - JSON and serialization
 - Platform integration
@@ -77,12 +76,12 @@
   - Build and release an iOS app
   - Build and release a web app
   - Continuous deployment
-- 框架
-- 架构
+- [State management & Architecture](https://github.com/ShannonChenCHN/FlutterLabs/issues/4)
+  - [**State management**](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
   - Redux
-- 热修复
-- 原理解析
-  - [图形渲染引擎](https://github.com/ShannonChenCHN/FlutterLabs/issues/1)
+- Hot fix
+- Dive-in
+  - [Graphic Rendering Engine](https://github.com/ShannonChenCHN/FlutterLabs/issues/1)
 - [API reference](https://api.flutter.dev/)
 
 ### 相关资源

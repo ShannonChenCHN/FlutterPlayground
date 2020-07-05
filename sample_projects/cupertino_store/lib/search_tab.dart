@@ -13,7 +13,7 @@ class SearchTab extends StatefulWidget {
   }
 }
 
-class _SearchTabState extends State<SearchTab> {
+class _SearchTabState extends State {
   TextEditingController _controller;
   FocusNode _focusNode;
   String _terms = '';

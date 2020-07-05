@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+import 'custom_button.dart';
+
 class MyAppBar extends StatelessWidget {
   MyAppBar({this.title});
 
@@ -10,8 +12,8 @@ class MyAppBar extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-      height: 56.0, // in logical pixels
-      padding: const EdgeInsets.symmetric(horizontal: 8.0),
+      height: 56.0+34, // in logical pixels
+      padding: const EdgeInsets.fromLTRB(8.0, 34, 8.0, 0),
       decoration: BoxDecoration(color: Colors.blue[500]),
       // Row is a horizontal, linear layout.
       child: Row(
@@ -56,6 +58,7 @@ class MyScaffold extends StatelessWidget {
               child: Text('Hello, world!'),
             ),
           ),
+          MyButton(),
         ],
       ),
     );
@@ -65,6 +68,8 @@ class MyScaffold extends StatelessWidget {
 void main() {
   runApp(MaterialApp(
     title: 'My app', // used by the OS task switcher
-    home: MyScaffold(),
+    home: Scaffold(
+        body: MyScaffold(),
+      )
   ));
 }

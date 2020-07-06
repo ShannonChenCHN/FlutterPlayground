@@ -1,0 +1,24 @@
+name: provider_counter
+description: >
+  The starter Flutter application, but using Provider to manage state.
+
+version: 1.0.0
+
+environment:
+  sdk: ">=2.5.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  provider: ^4.1.0
+  cupertino_icons: ^0.1.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  pedantic: ^1.9.0
+
+
+flutter:
+  uses-material-design: true

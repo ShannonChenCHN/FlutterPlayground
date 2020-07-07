@@ -78,6 +78,7 @@
   - Continuous deployment
 - [State management & Architecture](https://github.com/ShannonChenCHN/FlutterLabs/issues/4)
   - [**State management**](https://flutter.dev/docs/development/data-and-backend/state-mgmt/intro)
+  - Provider
   - Redux
 - Hot fix
 - Dive-in

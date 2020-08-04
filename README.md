@@ -3,6 +3,7 @@
 ### Outline
 
 - Overview
+  - [What is Flutter? by Flutter co-founder Eric Seidel](https://www.youtube.com/watch?v=h7HOt3Jb1Ts)
   - **[Technical overview](https://flutter.dev/docs/resources/technical-overview)**
   - **[Inside Flutter](https://flutter.dev/docs/resources/inside-flutter)**
   - [Get Started](https://flutter.dev/docs/get-started/install)
